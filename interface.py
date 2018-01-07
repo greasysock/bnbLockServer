@@ -154,7 +154,7 @@ class InvalidUsernameException(Exception):
     def __init__(self, message, errors):
         super().__init__(message)
         self.errors = errors
-        self.message = message
+        self.message = messag2
 
 def main():
     parser = argparse.ArgumentParser(prog=__title__)
